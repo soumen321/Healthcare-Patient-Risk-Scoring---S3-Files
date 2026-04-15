@@ -237,6 +237,20 @@ S3 Files enables **linear scaling** without data movement!
 5. ✅ Verify results in S3 bucket
 6. ✅ Download summary JSON for further analysis
 
+## Run the App
+
+- uvicorn api.app:app --reload
+- http://127.0.0.1:8000/docs
+
+  {
+  "cohort_id": 2,
+  "age": 45,
+  "bmi": 24.2,
+  "glucose": 95,
+  "blood_pressure": 120,
+  "cholesterol": 180
+}
+
 ## 📝 Requirements
 
 - Python 3.9+
